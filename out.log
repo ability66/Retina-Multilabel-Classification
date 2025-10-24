@@ -1,0 +1,18 @@
+Epoch 001/10 | train_loss=0.2077 | AUC(macro)=0.8944 | AUC(micro)=0.9281 | F1(micro)=0.4422
+✓ Saved new best checkpoint with AUC(micro)=0.9281
+Epoch 002/10 | train_loss=0.1438 | AUC(macro)=0.9157 | AUC(micro)=0.9323 | F1(micro)=0.5227
+✓ Saved new best checkpoint with AUC(micro)=0.9323
+Epoch 003/10 | train_loss=0.1311 | AUC(macro)=0.9251 | AUC(micro)=0.9416 | F1(micro)=0.5665
+✓ Saved new best checkpoint with AUC(micro)=0.9416
+Epoch 004/10 | train_loss=0.1198 | AUC(macro)=0.9249 | AUC(micro)=0.9511 | F1(micro)=0.5497
+✓ Saved new best checkpoint with AUC(micro)=0.9511
+Epoch 005/10 | train_loss=0.1079 | AUC(macro)=0.9328 | AUC(micro)=0.9453 | F1(micro)=0.5858
+Epoch 006/10 | train_loss=0.0985 | AUC(macro)=0.9429 | AUC(micro)=0.9639 | F1(micro)=0.6680
+✓ Saved new best checkpoint with AUC(micro)=0.9639
+Epoch 007/10 | train_loss=0.0888 | AUC(macro)=0.9500 | AUC(micro)=0.9682 | F1(micro)=0.7036
+✓ Saved new best checkpoint with AUC(micro)=0.9682
+Epoch 008/10 | train_loss=0.0798 | AUC(macro)=0.9519 | AUC(micro)=0.9711 | F1(micro)=0.7110
+✓ Saved new best checkpoint with AUC(micro)=0.9711
+Epoch 009/10 | train_loss=0.0733 | AUC(macro)=0.9544 | AUC(micro)=0.9728 | F1(micro)=0.7131
+✓ Saved new best checkpoint with AUC(micro)=0.9728
+Epoch 010/10 | train_loss=0.0681 | AUC(macro)=0.9531 | AUC(micro)=0.9715 | F1(micro)=0.7111

@@ -1,0 +1,19 @@
+# Python & venv
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+.venv/
+.venv*/
+*.egg-info/
+*.egg
+.ipynb_checkpoints/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Data - 忽略图片目录
+images/
