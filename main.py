@@ -141,20 +141,6 @@ def train(args):
                        "checkpoints/best.pt")
             print(f"✓ Saved new best checkpoint with AUC(micro)={best_auc:.4f}")
 
-# def eval_only(args):
-#     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-#     num_classes = len(LABELS)
-#     model = build_model(args.model, num_classes).to(device)
-
-#     assert args.ckpt and os.path.exists(args.ckpt), "Provide a valid --ckpt"
-#     ckpt = torch.load(args.ckpt, map_location="cpu")
-#     model.load_state_dict(ckpt["state_dict"], strict=False)
-
-#     val_ds = FundusCSVDataset(args.val_csv, args.data_dir, img_size=args.img_size, is_train=False)
-#     val_loader = DataLoader(val_ds, batch_size=args.batch_size, shuffle=False, num_workers=args.workers, pin_memory=True)
-#     metrics = evaluate(model, val_loader, device)
-#     print(json.dumps(metrics, indent=2))
-
 def eval_only(args):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     num_classes = len(LABELS)
