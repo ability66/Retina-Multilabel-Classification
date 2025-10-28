@@ -169,11 +169,10 @@ def eval_only(args):
     for i, lab in enumerate(LABELS):
         if lab not in df.columns:
             df[lab] = 0
-        df[lab] = y_pred[:, i].astype(int)
+        df[lab] = y_prob[:, i]
 
     out_csv = getattr(args, "out_csv", None) or args.val_csv
     df.to_csv(out_csv, index=False)
-    print(f"✓ Wrote multi-label predictions (threshold={0.5}) to {out_csv}")
     print(df.head().to_string(index=False))
     return df
 
